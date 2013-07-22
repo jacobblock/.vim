@@ -16,6 +16,9 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'scrooloose/syntastic'
 Bundle 'dbakker/vim-lint'
 Bundle 'scrooloose/nerdtree'
+Bundle 'vim-scripts/Gundo'
+Bundle 'vim-scripts/YankRing.vim'
+Bundle 'tpope/vim-fugitive'
 
 " Github repos of the user 'vim-scripts'
 " => can omit the username part
