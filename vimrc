@@ -19,6 +19,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'vim-scripts/Gundo'
 Bundle 'vim-scripts/YankRing.vim'
 Bundle 'tpope/vim-fugitive'
+Bundle 'Shougo/neocomplcache.vim'
 
 " Github repos of the user 'vim-scripts'
 " => can omit the username part
