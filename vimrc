@@ -12,7 +12,6 @@ Bundle 'gmarik/vundle'
 "
 " original repos on github
 Bundle 'majutsushi/tagbar'
-Bundle 'altercation/vim-colors-solarized'
 Bundle 'scrooloose/syntastic'
 Bundle 'dbakker/vim-lint'
 Bundle 'scrooloose/nerdtree'
@@ -20,6 +19,13 @@ Bundle 'vim-scripts/Gundo'
 Bundle 'vim-scripts/YankRing.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'Shougo/neocomplcache.vim'
+
+" Color schemes
+"Bundle 'rainux/vim-desert-warm-256'
+"colorscheme desert-warm-256
+Bundle 'altercation/vim-colors-solarized'
+set background=dark
+colorscheme solarized
 
 " Github repos of the user 'vim-scripts'
 " => can omit the username part
@@ -53,8 +59,6 @@ set visualbell
 set noerrorbells
 set nobackup
 set noswapfile
-set background=dark
-colorscheme solarized
 set list
 set listchars=tab:>.,trail:.,extends:#,nbsp:.
 autocmd filetype html,xml set listchars-=tab:>.
