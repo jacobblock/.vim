@@ -8,33 +8,25 @@ call vundle#rc()
 " required! 
 Bundle 'gmarik/vundle'
 
-" My Bundles here:
-"
-" original repos on github
 Bundle 'majutsushi/tagbar'
 Bundle 'scrooloose/syntastic'
 Bundle 'dbakker/vim-lint'
 Bundle 'scrooloose/nerdtree'
 Bundle 'vim-scripts/Gundo'
 Bundle 'vim-scripts/YankRing.vim'
+Bundle 'vim-scripts/L9'
+Bundle 'vim-scripts/FuzzyFinder'
 Bundle 'tpope/vim-fugitive'
 Bundle 'Shougo/neocomplcache.vim'
 
 " Color schemes
-"Bundle 'rainux/vim-desert-warm-256'
-"colorscheme desert-warm-256
+Bundle 'rainux/vim-desert-warm-256'
 Bundle 'altercation/vim-colors-solarized'
-set background=dark
-colorscheme solarized
-
-" Github repos of the user 'vim-scripts'
-" => can omit the username part
-Bundle 'L9'
-Bundle 'FuzzyFinder'
+set t_Co=16
+let g:solarized_termcolors=256
 
 " non github repos
 Bundle 'git://git.wincent.com/command-t.git'
-" ...
 
 filetype plugin indent on     " required!
 syntax enable
@@ -63,3 +55,7 @@ set list
 set listchars=tab:>.,trail:.,extends:#,nbsp:.
 autocmd filetype html,xml set listchars-=tab:>.
 set mouse=a
+
+set background=dark
+colorscheme solarized
+"colorscheme desert-warm-256
