@@ -55,6 +55,7 @@ set list
 set listchars=tab:>.,trail:.,extends:#,nbsp:.
 autocmd filetype html,xml set listchars-=tab:>.
 set mouse=a
+let g:yankring_history_dir = '~/.cache'
 
 set background=dark
 colorscheme solarized
