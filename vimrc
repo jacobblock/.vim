@@ -24,6 +24,7 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'leshill/vim-json'
 Bundle 'pangloss/vim-javascript'
 Bundle 'git://git.wincent.com/command-t.git'
+Bundle 'bling/vim-airline'
 
 " Color schemes
 Bundle 'rainux/vim-desert-warm-256'
@@ -72,6 +73,9 @@ set listchars=tab:>.,trail:.,extends:#,nbsp:.
 autocmd filetype html,xml set listchars-=tab:>.
 set mouse=a
 let g:yankring_history_dir = '~/.cache'
+set laststatus=2
+set ruler
+set cmdheight=2
 
 set background=dark
 colorscheme solarized
