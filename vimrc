@@ -35,26 +35,38 @@ let g:solarized_termcolors=256
 filetype plugin indent on     " required!
 syntax enable
 set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab " spaces instead of tabs
+set smarttab " tab inserts tab stops and bksp deletes tabs
+set shiftround " tab / shifting moves to closest tabstop
+set autoindent " match indents on new lines
+set smartindent " Intelligently indent/dedent new liens based on rules
 set backspace=indent,eol,start
-set autoindent
 set copyindent
 set number
-set shiftwidth=4
-set shiftround
-set showmatch
-set ignorecase
-set smartcase
-set smarttab
-set hlsearch
-set incsearch
+
+" Search settings
+set showmatch " live match highlighting
+set ignorecase " case insensitive
+set smartcase " if there are upper-case letters, become case-sensitive
+set hlsearch " highlight matches
+set incsearch " live incramental search
+set gdefault " use the g flag by default
+
 set history=1000
 set undolevels=1000
 set wildignore=*.swp,*.bak,*.pyc,*.class
 set title
 set visualbell
 set noerrorbells
+set virtualedit+=block " curser can go anywhere in visual block mode
+" Ignore built-in safety, use version control instead
 set nobackup
+set nowritebackup
 set noswapfile
+
+set autoread " update contents if file was changed on disk
 set list
 set listchars=tab:>.,trail:.,extends:#,nbsp:.
 autocmd filetype html,xml set listchars-=tab:>.
