@@ -5,7 +5,6 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " let Vundle manage Vundle
-" required! 
 Bundle 'gmarik/vundle'
 
 Bundle 'majutsushi/tagbar'
@@ -18,15 +17,13 @@ Bundle 'vim-scripts/L9'
 Bundle 'vim-scripts/FuzzyFinder'
 Bundle 'tpope/vim-fugitive'
 Bundle 'Shougo/neocomplcache.vim'
+Bundle 'git://git.wincent.com/command-t.git'
 
 " Color schemes
 Bundle 'rainux/vim-desert-warm-256'
 Bundle 'altercation/vim-colors-solarized'
 set t_Co=16
 let g:solarized_termcolors=256
-
-" non github repos
-Bundle 'git://git.wincent.com/command-t.git'
 
 filetype plugin indent on     " required!
 syntax enable
