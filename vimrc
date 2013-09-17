@@ -22,6 +22,7 @@ Bundle 'git://git.wincent.com/command-t.git'
 " Color schemes
 Bundle 'rainux/vim-desert-warm-256'
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'flazz/vim-colorschemes'
 set t_Co=16
 let g:solarized_termcolors=256
 
@@ -57,3 +58,22 @@ let g:yankring_history_dir = '~/.cache'
 set background=dark
 colorscheme solarized
 "colorscheme desert-warm-256
+"colorscheme 3dglasses
+"colorscheme baycomb
+"colorscheme blacksea
+"colorscheme bluegreen
+"colorscheme cthulhian
+"colorscheme dimslate
+"colorscheme dw_cyan
+"colorscheme kib_darktango
+"colorscheme native
+"colorscheme northland
+"colorscheme pacific
+"colorscheme ron
+"colorscheme wombat256
+"colorscheme zenburn
+"colorscheme beachcomber
+"colorscheme google
+"colorscheme guepardo
+"colorscheme osx_like
+"colorscheme trivial256
