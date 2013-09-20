@@ -47,6 +47,8 @@ set smartindent " Intelligently indent/dedent new liens based on rules
 set backspace=indent,eol,start
 set copyindent
 set number
+set cindent
+set cinoptions+=g0
 
 " Search settings
 set showmatch " live match highlighting
