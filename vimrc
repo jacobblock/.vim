@@ -26,6 +26,7 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'git://git.wincent.com/command-t.git'
 Bundle 'bling/vim-airline'
 Bundle 'mhinz/vim-startify'
+Bundle 'Valloric/YouCompleteMe'
 
 " Color schemes
 Bundle 'rainux/vim-desert-warm-256'
