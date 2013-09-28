@@ -1,9 +1,9 @@
 Setup
 =====
 
-ln -s ~/.vim/vimrc ~/.vimrc
-git clone https:/github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-vim +BundleInstall +qall
+    ln -s ~/.vim/vimrc ~/.vimrc
+    git clone https:/github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+    vim +BundleInstall +qall
 
 To add repository
 =================
@@ -11,9 +11,9 @@ vim ~/.vim/vimrc
 
 Then inside vim,
 
-:BundleInstall
-:BundleUpdate
-:BundleClean
+    :BundleInstall
+    :BundleUpdate
+    :BundleClean
 
 Deleting
 ========
