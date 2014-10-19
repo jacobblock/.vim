@@ -4,6 +4,9 @@ Setup
     ln -s ~/.vim/vimrc ~/.vimrc
     git clone https:/github.com/gmarik/vundle.git ~/.vim/bundle/vundle
     vim +BundleInstall +qall
+    cd ~/.vim/vimrc/bundle/YouCompleteMe
+    ./install.sh --clang-completer
+    vim +BundleInstall +qall
 
 To add repository
 =================
