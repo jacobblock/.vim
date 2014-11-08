@@ -37,9 +37,9 @@ let g:solarized_termcolors=256
 
 filetype plugin indent on     " required!
 syntax enable
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 set expandtab " spaces instead of tabs
 set smarttab " tab inserts tab stops and bksp deletes tabs
 set shiftround " tab / shifting moves to closest tabstop
@@ -82,7 +82,7 @@ set ruler
 set cmdheight=2
 
 set background=dark
-colorscheme solarized
+:silent! colorscheme solarized
 "colorscheme desert-warm-256
 "colorscheme 3dglasses
 "colorscheme baycomb
