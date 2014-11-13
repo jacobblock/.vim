@@ -27,6 +27,7 @@ Bundle 'git://git.wincent.com/command-t.git'
 Bundle 'bling/vim-airline'
 Bundle 'mhinz/vim-startify'
 Bundle 'Valloric/YouCompleteMe'
+Bundle 'aklt/plantuml-syntax'
 
 " Color schemes
 Bundle 'rainux/vim-desert-warm-256'
